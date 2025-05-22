@@ -1,0 +1,950 @@
+2025-05-21 09:32:34 DEBUG ENV:QA DriverManager:initializeDriver:41 - ThreadID:26 - Getting driver for browser:chrome
+2025-05-21 09:32:34 DEBUG ENV:QA DriverFactory:<init>:34 - ThreadID:26 -  *** Driver Factory Instantiated!
+2025-05-21 09:32:34 DEBUG ENV:QA DriverFactory:getWebDriver:58 - ThreadID:26 - Getting Driver for browser: chrome
+2025-05-21 09:32:38 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: sortByNameTest Listener: Test Started...
+2025-05-21 09:32:41 DEBUG ENV:QA TableSortTest:sortByNameTest:21 - ThreadID:26 - First Name in the table is : A. Bennett
+2025-05-21 09:32:41 DEBUG ENV:QA TableSortTest:sortByNameTest:24 - ThreadID:26 - First Name in the table after Name sort is : T. Fitzpatrick
+2025-05-21 09:32:42 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: sortByNameTest Listener: Test Success!!
+2025-05-21 09:32:42 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: searchTest Listener: Test Started...
+2025-05-21 09:32:42 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: searchTest Listener: Test Success!!
+2025-05-21 09:32:42 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: sortByPositionTest Listener: Test Started...
+2025-05-21 09:32:42 DEBUG ENV:QA TableSortTest:sortByPositionTest:38 - ThreadID:26 - First Position in the table is : Accountant
+2025-05-21 09:32:42 DEBUG ENV:QA TableSortTest:sortByPositionTest:41 - ThreadID:26 - First Name in the table after Name sort is : Accountant
+2025-05-21 09:32:42 DEBUG ENV:QA AllureTestListener:beforeTestStop:35 - ThreadID:26 -  Method: sortByPositionTest Listener : Test Failed!
+2025-05-21 09:32:42 DEBUG ENV:QA AllureTestListener:saveScreenshot:22 - ThreadID:26 - Listener : Taking Screenshot... 
+2025-05-21 09:32:42 DEBUG ENV:QA AllureTestListener:saveTextLog:28 - ThreadID:26 - AllureTestListener : Saving Text msg to attach to report: Saved Screenshot for testcase: sortByPositionTest
+2025-05-21 09:32:42 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: sortByPositionTest Listener: Listener : Test Failed!
+2025-05-21 09:32:43 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: sortByPositionTest Listener: Attached Screenshot and LogMsg!
+2025-05-21 09:32:43 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: goNextTest Listener: Test Started...
+2025-05-21 09:32:43 DEBUG ENV:QA TableSortTest:goNextTest:48 - ThreadID:26 - next is :true
+2025-05-21 09:32:43 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:43 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:43 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:43 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:43 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:43 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:43 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:43 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:44 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:44 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:44 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:44 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:44 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:44 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:44 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:44 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:44 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:44 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:44 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:44 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:45 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:45 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:45 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:45 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:45 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:45 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:45 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:45 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:45 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:45 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:45 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:46 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:46 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:46 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:46 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:46 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:46 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:46 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:46 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:47 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:47 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:47 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:47 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:47 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:47 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:47 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:47 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:47 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:48 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:48 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:48 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:48 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:48 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:48 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:48 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:48 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:48 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:48 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:49 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:49 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:49 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:49 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:49 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:49 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:49 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:49 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:50 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:50 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:50 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:50 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:50 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:50 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:50 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:50 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:50 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:50 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:50 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:50 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:51 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:51 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:51 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:51 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:51 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:51 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:51 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:51 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:51 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:52 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:52 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:52 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:52 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:52 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:52 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:52 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:52 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:52 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:52 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:52 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:52 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:53 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:53 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:53 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:53 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:53 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:53 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:53 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:53 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:53 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:53 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:54 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:54 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:54 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:54 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:54 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:54 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:54 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:54 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:54 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:54 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:54 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:54 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:55 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:55 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:55 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:55 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:55 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:55 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:55 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:55 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:55 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:55 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:55 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:56 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:56 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:56 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:56 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:56 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:56 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:56 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:56 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:56 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:56 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:56 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:56 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:56 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:57 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:57 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:57 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:57 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:57 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:57 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:57 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:57 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:57 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:57 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:58 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:58 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:58 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:58 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:58 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:58 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:58 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:58 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:58 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:58 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:58 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:59 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:59 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:59 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:59 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:59 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:59 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:59 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:59 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:59 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:59 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:59 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:32:59 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:00 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:00 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:00 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:00 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:00 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:00 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:00 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:00 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:00 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:00 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:00 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:00 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:01 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:01 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:01 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:01 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:01 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:01 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:01 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:01 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:01 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:01 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:01 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:01 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:02 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:02 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:02 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:02 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:02 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:02 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:02 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:02 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:02 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:02 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:02 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:02 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:03 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:03 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:03 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:03 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:03 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:03 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:03 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:03 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:03 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:03 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:03 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:03 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:03 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:04 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:04 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:04 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:04 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:04 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:04 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:04 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:04 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:04 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:04 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:04 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:04 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:05 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:05 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:05 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:05 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:05 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:05 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:05 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:05 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:05 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:05 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:05 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:05 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:06 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:06 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:06 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:06 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:06 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:06 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:06 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:06 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:06 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:06 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:06 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:07 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:07 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:07 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:07 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:07 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:07 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:07 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:07 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:07 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:07 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:07 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:07 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:07 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:08 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:08 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:08 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:08 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:08 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:08 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:08 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:08 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:08 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:08 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:08 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:08 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:09 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:09 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:09 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:09 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:09 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:09 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:09 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:09 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:09 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:09 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:09 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:10 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:10 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:10 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:10 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:10 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:10 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:10 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:10 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:10 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:10 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:10 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:10 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:10 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:11 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:11 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:11 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:11 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:11 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:11 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:11 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:11 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:11 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:11 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:11 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:11 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:12 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:12 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:12 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:12 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:12 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:12 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:12 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:12 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:12 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:12 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:12 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:13 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:13 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:13 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:13 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:13 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:13 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:13 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:13 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:13 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:13 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:13 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:13 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:13 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:14 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:14 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:14 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:14 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:14 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:14 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:14 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:14 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:14 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:14 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:14 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:14 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:15 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:15 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:15 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:15 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:15 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:15 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:15 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:15 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:15 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:15 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:15 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:15 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:16 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:33:16 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:0
+2025-05-21 09:33:16 DEBUG ENV:QA AllureTestListener:beforeTestStop:35 - ThreadID:26 -  Method: goNextTest Listener : Test Failed!
+2025-05-21 09:33:16 DEBUG ENV:QA AllureTestListener:saveScreenshot:22 - ThreadID:26 - Listener : Taking Screenshot... 
+2025-05-21 09:33:16 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: goNextTest Listener: Listener : Test Failed!
+2025-05-21 09:33:16 DEBUG ENV:QA AllureTestListener:beforeTestStop:35 - ThreadID:26 -  Method: goNextTest Listener : Test Failed!
+2025-05-21 09:33:16 DEBUG ENV:QA AllureTestListener:saveScreenshot:22 - ThreadID:26 - Listener : Taking Screenshot... 
+2025-05-21 09:33:16 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: goNextTest Listener: Listener : Test Failed!
+2025-05-21 09:33:16 DEBUG ENV:QA DriverManager:closedown:57 - ThreadID:26 - driver value is: ChromeDriver: chrome on windows (baaa0a06eb6f0e1a384870ed9fd6ab61)
+2025-05-21 09:33:16 DEBUG ENV:QA DriverFactory:tearDown:205 - ThreadID:26 - driver value is: ChromeDriver: chrome on windows (baaa0a06eb6f0e1a384870ed9fd6ab61)
+2025-05-21 09:33:16 DEBUG ENV:QA DriverManager:closedown:66 - ThreadID:26 - TearDown completed!
+2025-05-21 09:36:48 DEBUG ENV:QA DriverManager:initializeDriver:41 - ThreadID:26 - Getting driver for browser:chrome
+2025-05-21 09:36:48 DEBUG ENV:QA DriverFactory:<init>:34 - ThreadID:26 -  *** Driver Factory Instantiated!
+2025-05-21 09:36:48 DEBUG ENV:QA DriverFactory:getWebDriver:58 - ThreadID:26 - Getting Driver for browser: chrome
+2025-05-21 09:36:50 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: sortByNameTest Listener: Test Started...
+2025-05-21 09:36:53 DEBUG ENV:QA TableSortTest:sortByNameTest:21 - ThreadID:26 - First Name in the table is : A. Bennett
+2025-05-21 09:36:53 DEBUG ENV:QA TableSortTest:sortByNameTest:24 - ThreadID:26 - First Name in the table after Name sort is : T. Fitzpatrick
+2025-05-21 09:36:53 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: sortByNameTest Listener: Test Success!!
+2025-05-21 09:36:53 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: searchTest Listener: Test Started...
+2025-05-21 09:36:53 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: searchTest Listener: Test Success!!
+2025-05-21 09:36:53 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: sortByPositionTest Listener: Test Started...
+2025-05-21 09:36:53 DEBUG ENV:QA TableSortTest:sortByPositionTest:38 - ThreadID:26 - First Position in the table is : Accountant
+2025-05-21 09:36:53 DEBUG ENV:QA TableSortTest:sortByPositionTest:41 - ThreadID:26 - First Name in the table after Name sort is : Accountant
+2025-05-21 09:36:53 DEBUG ENV:QA AllureTestListener:beforeTestStop:35 - ThreadID:26 -  Method: sortByPositionTest Listener : Test Failed!
+2025-05-21 09:36:53 DEBUG ENV:QA AllureTestListener:saveScreenshot:22 - ThreadID:26 - Listener : Taking Screenshot... 
+2025-05-21 09:36:54 DEBUG ENV:QA AllureTestListener:saveTextLog:28 - ThreadID:26 - AllureTestListener : Saving Text msg to attach to report: Saved Screenshot for testcase: sortByPositionTest
+2025-05-21 09:36:54 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: sortByPositionTest Listener: Listener : Test Failed!
+2025-05-21 09:36:54 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: sortByPositionTest Listener: Attached Screenshot and LogMsg!
+2025-05-21 09:36:54 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: goNextTest Listener: Test Started...
+2025-05-21 09:36:54 DEBUG ENV:QA TableSortTest:goNextTest:48 - ThreadID:26 - next is :true
+2025-05-21 09:36:54 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:36:54 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:36:54 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:36:54 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:36:54 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:36:54 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:36:54 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:36:54 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:36:55 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:36:55 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:36:55 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:36:55 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:36:55 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:36:55 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:36:55 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:36:55 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:36:55 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:36:55 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:36:55 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:36:56 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:36:56 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:36:56 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:36:56 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:36:56 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:36:56 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:36:56 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:36:56 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:36:56 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:36:56 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:36:56 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:36:56 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:36:57 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:36:57 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:36:57 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:36:57 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:36:57 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:36:57 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:36:57 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:36:57 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:36:57 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:36:57 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:36:57 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:36:57 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:36:58 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:36:58 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:36:58 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:36:58 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:36:58 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:36:58 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:36:58 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:36:58 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:36:58 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:36:58 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:36:59 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:36:59 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:36:59 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:36:59 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:36:59 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:36:59 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:36:59 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:36:59 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:36:59 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:00 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:00 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:00 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:00 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:00 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:00 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:00 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:00 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:00 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:00 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:00 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:01 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:01 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:01 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:01 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:01 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:01 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:01 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:01 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:01 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:01 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:01 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:02 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:02 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:02 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:02 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:02 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:02 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:02 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:02 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:02 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:02 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:02 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:02 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:03 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:03 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:03 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:03 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:03 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:03 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:03 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:03 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:03 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:03 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:03 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:03 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:03 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:04 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:04 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:04 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:04 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:04 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:04 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:04 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:04 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:04 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:04 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:04 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:04 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:05 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:05 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:05 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:05 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:05 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:05 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:05 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:05 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:05 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:05 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:05 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:05 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:05 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:06 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:06 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:06 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:06 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:06 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:06 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:06 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:06 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:06 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:06 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:06 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:06 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:06 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:07 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:07 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:07 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:07 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:07 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:07 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:07 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:07 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:07 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:07 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:07 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:08 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:08 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:08 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:08 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:08 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:08 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:08 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:08 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:08 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:08 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:08 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:09 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:09 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:09 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:09 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:09 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:09 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:09 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:09 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:09 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:09 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:09 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:09 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:10 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:10 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:10 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:10 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:10 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:10 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:10 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:10 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:10 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:10 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:10 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:10 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:10 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:11 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:11 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:11 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:11 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:11 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:11 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:11 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:11 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:11 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:11 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:11 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:12 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:12 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:12 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:12 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:12 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:12 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:12 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:12 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:12 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:12 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:12 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:12 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:13 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:13 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:13 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:13 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:13 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:13 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:13 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:13 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:13 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:13 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:13 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:13 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:14 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:14 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:14 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:14 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:14 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:14 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:14 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:14 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:14 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:14 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:14 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:14 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:15 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:15 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:15 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:15 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:15 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:15 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:15 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:15 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:15 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:15 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:15 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:15 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:16 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:16 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:16 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:16 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:16 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:16 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:16 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:16 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:16 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:16 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:16 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:16 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:16 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:17 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:17 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:17 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:17 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:17 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:17 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:17 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:17 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:17 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:17 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:17 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:17 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:18 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:18 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:18 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:18 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:18 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:18 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:18 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:18 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:18 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:18 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:18 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:18 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:19 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:19 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:19 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:19 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:19 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:19 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:19 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:19 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:19 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:19 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:19 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:19 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:19 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:20 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:20 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:20 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:20 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:20 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:20 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:20 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:20 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:20 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:20 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:20 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:20 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:21 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:21 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:21 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:21 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:21 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:21 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:21 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:21 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:21 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:21 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:21 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:21 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:21 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:21 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:22 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:22 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:22 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:22 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:22 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:22 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:22 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:22 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:22 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:22 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:22 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:22 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:23 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:23 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:23 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:23 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:23 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:23 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:23 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:23 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:23 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:23 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:23 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:23 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:23 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:24 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:24 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:24 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:24 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:24 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:24 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:24 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:24 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:24 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:24 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:24 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:25 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:25 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:25 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:25 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:25 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:25 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:25 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:25 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:25 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:25 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:25 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:37:25 DEBUG ENV:QA TableSortTest:goNextTest:51 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:38:00 DEBUG ENV:QA DriverManager:initializeDriver:41 - ThreadID:26 - Getting driver for browser:chrome
+2025-05-21 09:38:00 DEBUG ENV:QA DriverFactory:<init>:34 - ThreadID:26 -  *** Driver Factory Instantiated!
+2025-05-21 09:38:00 DEBUG ENV:QA DriverFactory:getWebDriver:58 - ThreadID:26 - Getting Driver for browser: chrome
+2025-05-21 09:38:02 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: sortByNameTest Listener: Test Started...
+2025-05-21 09:38:03 DEBUG ENV:QA TableSortTest:sortByNameTest:21 - ThreadID:26 - First Name in the table is : A. Bennett
+2025-05-21 09:38:03 DEBUG ENV:QA TableSortTest:sortByNameTest:24 - ThreadID:26 - First Name in the table after Name sort is : T. Fitzpatrick
+2025-05-21 09:38:03 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: sortByNameTest Listener: Test Success!!
+2025-05-21 09:38:03 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: searchTest Listener: Test Started...
+2025-05-21 09:38:03 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: searchTest Listener: Test Success!!
+2025-05-21 09:38:03 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: sortByPositionTest Listener: Test Started...
+2025-05-21 09:38:03 DEBUG ENV:QA TableSortTest:sortByPositionTest:38 - ThreadID:26 - First Position in the table is : Accountant
+2025-05-21 09:38:03 DEBUG ENV:QA TableSortTest:sortByPositionTest:41 - ThreadID:26 - First Name in the table after Name sort is : Accountant
+2025-05-21 09:38:03 DEBUG ENV:QA AllureTestListener:beforeTestStop:35 - ThreadID:26 -  Method: sortByPositionTest Listener : Test Failed!
+2025-05-21 09:38:03 DEBUG ENV:QA AllureTestListener:saveScreenshot:22 - ThreadID:26 - Listener : Taking Screenshot... 
+2025-05-21 09:38:04 DEBUG ENV:QA AllureTestListener:saveTextLog:28 - ThreadID:26 - AllureTestListener : Saving Text msg to attach to report: Saved Screenshot for testcase: sortByPositionTest
+2025-05-21 09:38:04 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: sortByPositionTest Listener: Listener : Test Failed!
+2025-05-21 09:38:04 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: sortByPositionTest Listener: Attached Screenshot and LogMsg!
+2025-05-21 09:38:04 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: goNextTest Listener: Test Started...
+2025-05-21 09:38:04 DEBUG ENV:QA TableSortTest:goNextTest:48 - ThreadID:26 - next is :true
+2025-05-21 09:38:04 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: goNextTest Listener: Test Success!!
+2025-05-21 09:38:04 DEBUG ENV:QA DriverManager:closedown:57 - ThreadID:26 - driver value is: ChromeDriver: chrome on windows (d3c55e5d5817fad113d5b2754b32d80d)
+2025-05-21 09:38:04 DEBUG ENV:QA DriverFactory:tearDown:205 - ThreadID:26 - driver value is: ChromeDriver: chrome on windows (d3c55e5d5817fad113d5b2754b32d80d)
+2025-05-21 09:38:04 DEBUG ENV:QA DriverManager:closedown:66 - ThreadID:26 - TearDown completed!
+2025-05-21 09:39:43 DEBUG ENV:QA DriverManager:initializeDriver:41 - ThreadID:26 - Getting driver for browser:chrome
+2025-05-21 09:39:43 DEBUG ENV:QA DriverFactory:<init>:34 - ThreadID:26 -  *** Driver Factory Instantiated!
+2025-05-21 09:39:43 DEBUG ENV:QA DriverFactory:getWebDriver:58 - ThreadID:26 - Getting Driver for browser: chrome
+2025-05-21 09:39:45 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: sortByNameTest Listener: Test Started...
+2025-05-21 09:39:46 DEBUG ENV:QA TableSortTest:sortByNameTest:21 - ThreadID:26 - First Name in the table is : A. Bennett
+2025-05-21 09:39:46 DEBUG ENV:QA TableSortTest:sortByNameTest:24 - ThreadID:26 - First Name in the table after Name sort is : T. Fitzpatrick
+2025-05-21 09:39:46 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: sortByNameTest Listener: Test Success!!
+2025-05-21 09:39:46 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: goNextTest Listener: Test Started...
+2025-05-21 09:39:46 DEBUG ENV:QA TableSortTest:goNextTest:31 - ThreadID:26 - next is :true
+2025-05-21 09:39:46 DEBUG ENV:QA TableSortTest:goNextTest:34 - ThreadID:26 - Number of rows in this page is:10
+2025-05-21 09:39:46 DEBUG ENV:QA AllureTestListener:beforeTestStop:35 - ThreadID:26 -  Method: goNextTest Listener : Test Failed!
+2025-05-21 09:39:46 DEBUG ENV:QA AllureTestListener:saveScreenshot:22 - ThreadID:26 - Listener : Taking Screenshot... 
+2025-05-21 09:39:46 DEBUG ENV:QA AllureTestListener:saveTextLog:28 - ThreadID:26 - AllureTestListener : Saving Text msg to attach to report: Saved Screenshot for testcase: goNextTest
+2025-05-21 09:39:46 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: goNextTest Listener: Listener : Test Failed!
+2025-05-21 09:39:47 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: goNextTest Listener: Attached Screenshot and LogMsg!
+2025-05-21 09:39:47 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: sortByPositionTest Listener: Test Started...
+2025-05-21 09:39:47 DEBUG ENV:QA TableSortTest:sortByPositionTest:41 - ThreadID:26 - First Position in the table is : Senior Marketing Designer
+2025-05-21 09:39:47 DEBUG ENV:QA TableSortTest:sortByPositionTest:44 - ThreadID:26 - First Name in the table after Name sort is : Accountant
+2025-05-21 09:39:47 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: sortByPositionTest Listener: Test Success!!
+2025-05-21 09:39:47 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: searchTest Listener: Test Started...
+2025-05-21 09:39:47 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: searchTest Listener: Test Success!!
+2025-05-21 09:39:47 DEBUG ENV:QA DriverManager:closedown:57 - ThreadID:26 - driver value is: ChromeDriver: chrome on windows (a6b3c319ef8e38d6e7c12b35c525793f)
+2025-05-21 09:39:47 DEBUG ENV:QA DriverFactory:tearDown:205 - ThreadID:26 - driver value is: ChromeDriver: chrome on windows (a6b3c319ef8e38d6e7c12b35c525793f)
+2025-05-21 09:39:47 DEBUG ENV:QA DriverManager:closedown:66 - ThreadID:26 - TearDown completed!
+2025-05-21 09:43:50 DEBUG ENV:QA DriverManager:initializeDriver:41 - ThreadID:25 - Getting driver for browser:chrome
+2025-05-21 09:43:50 DEBUG ENV:QA DriverFactory:<init>:34 - ThreadID:25 -  *** Driver Factory Instantiated!
+2025-05-21 09:43:50 DEBUG ENV:QA DriverFactory:getWebDriver:58 - ThreadID:25 - Getting Driver for browser: chrome
+2025-05-21 09:43:52 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:25 -  Method: sortByNameTest Listener: Test Started...
+2025-05-21 09:43:54 DEBUG ENV:QA TableSortTest:sortByNameTest:21 - ThreadID:25 - First Name in the table is : A. Bennett
+2025-05-21 09:43:55 DEBUG ENV:QA TableSortTest:sortByNameTest:24 - ThreadID:25 - First Name in the table after Name sort is : T. Fitzpatrick
+2025-05-21 09:43:55 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:25 -  Method: sortByNameTest Listener: Test Success!!
+2025-05-21 09:43:55 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:25 -  Method: goNextTest Listener: Test Started...
+2025-05-21 09:43:55 DEBUG ENV:QA TableSortTest:goNextTest:30 - ThreadID:25 - Testing the Next button..
+2025-05-21 09:43:55 DEBUG ENV:QA TableSortTest:goNextTest:33 - ThreadID:25 - Number of rows in this page is:10
+2025-05-21 09:43:55 DEBUG ENV:QA TableSortTest:goNextTest:33 - ThreadID:25 - Number of rows in this page is:4
+2025-05-21 09:43:55 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:25 -  Method: goNextTest Listener: Test Success!!
+2025-05-21 09:43:55 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:25 -  Method: sortByPositionTest Listener: Test Started...
+2025-05-21 09:43:55 DEBUG ENV:QA TableSortTest:sortByPositionTest:40 - ThreadID:25 - First Position in the table is : Software Engineer
+2025-05-21 09:43:55 DEBUG ENV:QA TableSortTest:sortByPositionTest:43 - ThreadID:25 - First Name in the table after Name sort is : Accountant
+2025-05-21 09:43:55 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:25 -  Method: sortByPositionTest Listener: Test Success!!
+2025-05-21 09:43:55 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:25 -  Method: searchTest Listener: Test Started...
+2025-05-21 09:43:55 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:25 -  Method: searchTest Listener: Test Success!!
+2025-05-21 09:43:55 DEBUG ENV:QA DriverManager:closedown:57 - ThreadID:25 - driver value is: ChromeDriver: chrome on windows (fceca041bfcd561c3cd4b6d687e66c91)
+2025-05-21 09:43:55 DEBUG ENV:QA DriverFactory:tearDown:205 - ThreadID:25 - driver value is: ChromeDriver: chrome on windows (fceca041bfcd561c3cd4b6d687e66c91)
+2025-05-21 09:43:55 DEBUG ENV:QA DriverManager:closedown:66 - ThreadID:25 - TearDown completed!
+2025-05-21 09:56:20 DEBUG ENV:QA DriverManager:initializeDriver:41 - ThreadID:26 - Getting driver for browser:chrome
+2025-05-21 09:56:20 DEBUG ENV:QA DriverFactory:<init>:34 - ThreadID:26 -  *** Driver Factory Instantiated!
+2025-05-21 09:56:20 DEBUG ENV:QA DriverFactory:getLTRemoteWebDriver:135 - ThreadID:26 - Getting LambdaTest Remote Driver for browser: chrome
+2025-05-21 09:56:20 DEBUG ENV:QA DriverFactory:getLTRemoteWebDriver:187 - ThreadID:26 - Remote URL to connect: https://rinzi.bhutia:tPcBZWNExElbWxLB8SyjjQ2GT41M4AormfPGsMM9mtu5KjvVw9@hub.lambdatest.com/wd/hub
+2025-05-21 09:56:29 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: sortByNameTest Listener: Test Started...
+2025-05-21 09:56:31 DEBUG ENV:QA TableSortTest:sortByNameTest:21 - ThreadID:26 - First Name in the table is : A. Bennett
+2025-05-21 09:56:32 DEBUG ENV:QA TableSortTest:sortByNameTest:24 - ThreadID:26 - First Name in the table after Name sort is : T. Fitzpatrick
+2025-05-21 09:56:32 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: sortByNameTest Listener: Test Success!!
+2025-05-21 09:56:32 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: goNextTest Listener: Test Started...
+2025-05-21 09:56:32 DEBUG ENV:QA TableSortTest:goNextTest:30 - ThreadID:26 - Testing the Next button..
+2025-05-21 09:56:33 DEBUG ENV:QA TableSortTest:goNextTest:33 - ThreadID:26 - Number of rows in this page is:10
+2025-05-21 09:56:33 DEBUG ENV:QA TableSortTest:goNextTest:33 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 09:56:34 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: goNextTest Listener: Test Success!!
+2025-05-21 09:56:34 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: sortByPositionTest Listener: Test Started...
+2025-05-21 09:56:34 DEBUG ENV:QA TableSortTest:sortByPositionTest:40 - ThreadID:26 - First Position in the table is : Software Engineer
+2025-05-21 09:56:34 DEBUG ENV:QA TableSortTest:sortByPositionTest:43 - ThreadID:26 - First Name in the table after Name sort is : Accountant
+2025-05-21 09:56:34 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: sortByPositionTest Listener: Test Success!!
+2025-05-21 09:56:35 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: searchTest Listener: Test Started...
+2025-05-21 09:56:35 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: searchTest Listener: Test Success!!
+2025-05-21 09:56:35 DEBUG ENV:QA DriverManager:closedown:57 - ThreadID:26 - driver value is: RemoteWebDriver: chrome on windows (93f99b8f2a373f824e5dce3958445496)
+2025-05-21 09:56:35 DEBUG ENV:QA DriverFactory:tearDown:205 - ThreadID:26 - driver value is: RemoteWebDriver: chrome on windows (93f99b8f2a373f824e5dce3958445496)
+2025-05-21 09:56:35 DEBUG ENV:QA DriverManager:closedown:66 - ThreadID:26 - TearDown completed!
+2025-05-21 11:09:04 DEBUG ENV:QA DriverManager:initializeDriver:41 - ThreadID:25 - Getting driver for browser:chrome
+2025-05-21 11:09:04 DEBUG ENV:QA DriverFactory:<init>:34 - ThreadID:25 -  *** Driver Factory Instantiated!
+2025-05-21 11:09:04 DEBUG ENV:QA DriverFactory:getLTRemoteWebDriver:135 - ThreadID:25 - Getting LambdaTest Remote Driver for browser: chrome
+2025-05-21 11:09:04 DEBUG ENV:QA DriverFactory:getLTRemoteWebDriver:187 - ThreadID:25 - Remote URL to connect: https://rinzi.bhutia:tPcBZWNExElbWxLB8SyjjQ2GT41M4AormfPGsMM9mtu5KjvVw9@hub.lambdatest.com/wd/hub
+2025-05-21 11:09:15 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:25 -  Method: sortByNameTest Listener: Test Started...
+2025-05-21 11:09:17 DEBUG ENV:QA TableSortTest:sortByNameTest:21 - ThreadID:25 - First Name in the table is : A. Bennett
+2025-05-21 11:09:18 DEBUG ENV:QA TableSortTest:sortByNameTest:24 - ThreadID:25 - First Name in the table after Name sort is : T. Fitzpatrick
+2025-05-21 11:09:18 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:25 -  Method: sortByNameTest Listener: Test Success!!
+2025-05-21 11:09:18 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:25 -  Method: goNextTest Listener: Test Started...
+2025-05-21 11:09:18 DEBUG ENV:QA TableSortTest:goNextTest:30 - ThreadID:25 - Testing the Next button..
+2025-05-21 11:09:19 DEBUG ENV:QA TableSortTest:goNextTest:33 - ThreadID:25 - Number of rows in this page is:10
+2025-05-21 11:09:20 DEBUG ENV:QA TableSortTest:goNextTest:33 - ThreadID:25 - Number of rows in this page is:4
+2025-05-21 11:09:20 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:25 -  Method: goNextTest Listener: Test Success!!
+2025-05-21 11:09:20 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:25 -  Method: sortByPositionTest Listener: Test Started...
+2025-05-21 11:09:20 DEBUG ENV:QA TableSortTest:sortByPositionTest:40 - ThreadID:25 - First Position in the table is : Software Engineer
+2025-05-21 11:09:21 DEBUG ENV:QA TableSortTest:sortByPositionTest:43 - ThreadID:25 - First Name in the table after Name sort is : Accountant
+2025-05-21 11:09:21 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:25 -  Method: sortByPositionTest Listener: Test Success!!
+2025-05-21 11:09:21 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:25 -  Method: searchTest Listener: Test Started...
+2025-05-21 11:09:21 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:25 -  Method: searchTest Listener: Test Success!!
+2025-05-21 11:09:21 DEBUG ENV:QA DriverManager:closedown:57 - ThreadID:25 - driver value is: RemoteWebDriver: chrome on windows (8b24d0570db94c68346a192335e92224)
+2025-05-21 11:09:21 DEBUG ENV:QA DriverFactory:tearDown:205 - ThreadID:25 - driver value is: RemoteWebDriver: chrome on windows (8b24d0570db94c68346a192335e92224)
+2025-05-21 11:09:22 DEBUG ENV:QA AllureTestListener:beforeTestStop:35 - ThreadID:25 -  Method: closedown Listener : Test Failed!
+2025-05-21 11:09:22 DEBUG ENV:QA AllureTestListener:saveTextLog:28 - ThreadID:25 - AllureTestListener : Saving Text msg to attach to report: Saved Screenshot for testcase: closedown
+2025-05-21 11:10:36 DEBUG ENV:QA DriverManager:initializeDriver:41 - ThreadID:26 - Getting driver for browser:chrome
+2025-05-21 11:10:36 DEBUG ENV:QA DriverFactory:<init>:34 - ThreadID:26 -  *** Driver Factory Instantiated!
+2025-05-21 11:10:36 DEBUG ENV:QA DriverFactory:getWebDriver:58 - ThreadID:26 - Getting Driver for browser: chrome
+2025-05-21 11:10:41 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: sortByNameTest Listener: Test Started...
+2025-05-21 11:10:42 DEBUG ENV:QA TableSortTest:sortByNameTest:21 - ThreadID:26 - First Name in the table is : A. Bennett
+2025-05-21 11:10:42 DEBUG ENV:QA TableSortTest:sortByNameTest:24 - ThreadID:26 - First Name in the table after Name sort is : T. Fitzpatrick
+2025-05-21 11:10:43 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: sortByNameTest Listener: Test Success!!
+2025-05-21 11:10:43 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: goNextTest Listener: Test Started...
+2025-05-21 11:10:43 DEBUG ENV:QA TableSortTest:goNextTest:30 - ThreadID:26 - Testing the Next button..
+2025-05-21 11:10:43 DEBUG ENV:QA TableSortTest:goNextTest:33 - ThreadID:26 - Number of rows in this page is:10
+2025-05-21 11:10:43 DEBUG ENV:QA TableSortTest:goNextTest:33 - ThreadID:26 - Number of rows in this page is:4
+2025-05-21 11:10:43 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: goNextTest Listener: Test Success!!
+2025-05-21 11:10:43 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: sortByPositionTest Listener: Test Started...
+2025-05-21 11:10:43 DEBUG ENV:QA TableSortTest:sortByPositionTest:40 - ThreadID:26 - First Position in the table is : Software Engineer
+2025-05-21 11:10:43 DEBUG ENV:QA TableSortTest:sortByPositionTest:43 - ThreadID:26 - First Name in the table after Name sort is : Accountant
+2025-05-21 11:10:43 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: sortByPositionTest Listener: Test Success!!
+2025-05-21 11:10:43 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: searchTest Listener: Test Started...
+2025-05-21 11:10:44 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: searchTest Listener: Test Success!!
+2025-05-21 11:10:44 DEBUG ENV:QA DriverManager:closedown:57 - ThreadID:26 - driver value is: ChromeDriver: chrome on windows (0abba8ca07e81bf59f8479c6f02218b8)
+2025-05-21 11:10:44 DEBUG ENV:QA DriverFactory:tearDown:205 - ThreadID:26 - driver value is: ChromeDriver: chrome on windows (0abba8ca07e81bf59f8479c6f02218b8)
+2025-05-21 11:10:44 DEBUG ENV:QA AllureTestListener:beforeTestStop:35 - ThreadID:26 -  Method: closedown Listener : Test Failed!
+2025-05-21 11:10:44 DEBUG ENV:QA AllureTestListener:saveScreenshot:22 - ThreadID:26 - Listener : Taking Screenshot... 
+2025-05-21 22:01:34 DEBUG ENV:QA LoginTest:testLoginButton:21 - ThreadID:22 - Testing Login..
+2025-05-21 22:01:35 DEBUG ENV:QA LoginPage:login:40 - ThreadID:22 - Testing Login..
+2025-05-21 22:05:19 DEBUG ENV:QA LoginTest:testLoginButton:23 - ThreadID:22 - Testing Login..
+2025-05-21 22:05:19 DEBUG ENV:QA LoginPage:login:40 - ThreadID:22 - Testing Login..
+2025-05-21 22:24:52 DEBUG ENV:QA LoginTest:testLoginButton:23 - ThreadID:22 - Testing Login..
+2025-05-21 22:24:53 DEBUG ENV:QA LoginPage:login:41 - ThreadID:22 - Testing Login..
+2025-05-21 22:24:53 DEBUG ENV:QA AllureTestListener:beforeTestStop:35 - ThreadID:22 -  Method: testLoginButton Listener : Test Failed!
+2025-05-21 22:24:53 DEBUG ENV:QA DriverFactory:<init>:34 - ThreadID:22 -  *** Driver Factory Instantiated!
+2025-05-21 22:24:53 DEBUG ENV:QA AllureTestListener:saveTextLog:28 - ThreadID:22 - AllureTestListener : Saving Text msg to attach to report: Saved Screenshot for testcase: testLoginButton
+2025-05-21 22:26:49 DEBUG ENV:QA LoginTest:testLoginButton:23 - ThreadID:22 - Testing Login..
+2025-05-21 22:26:50 DEBUG ENV:QA LoginPage:login:41 - ThreadID:22 - Testing Login..
+2025-05-21 22:36:56 DEBUG ENV:QA LoginTest:testLoginButton:23 - ThreadID:22 - Testing Login..
+2025-05-21 22:36:57 DEBUG ENV:QA LoginPage:login:42 - ThreadID:22 - Testing Login..
+2025-05-21 22:36:58 DEBUG ENV:QA AllureTestListener:beforeTestStop:35 - ThreadID:22 -  Method: testLoginButton Listener : Test Failed!
+2025-05-21 22:36:58 DEBUG ENV:QA DriverFactory:<init>:34 - ThreadID:22 -  *** Driver Factory Instantiated!
+2025-05-21 22:36:58 DEBUG ENV:QA AllureTestListener:saveTextLog:28 - ThreadID:22 - AllureTestListener : Saving Text msg to attach to report: Saved Screenshot for testcase: testLoginButton
+2025-05-21 22:54:52 DEBUG ENV:QA LoginTest:testLoginButton:23 - ThreadID:22 - Testing Login..
+2025-05-21 22:54:53 DEBUG ENV:QA LoginPage:login:42 - ThreadID:22 - Testing Login..

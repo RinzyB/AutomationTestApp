@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Configuration status="DEBUG">
+
+	<!-- Logging Properties -->
+	<Properties>
+		<Property name="APP_LOG_ROOT">output/logs</Property>
+		<Property name="APP_ENV">QA</Property>
+		<Property name="LOG_PATTERN">%d{yyyy-MM-dd HH:mm:ss} %-5p ENV:${APP_ENV} %c{1}:%M:%L - ThreadID:%tid - %m%n</Property>
+	</Properties>
+
+	<Appenders>
+		<!-- Console Appender -->
+		<Console name="ConsoleAppender" target="SYSTEM_OUT">
+			<PatternLayout pattern="${LOG_PATTERN}" />
+		</Console>
+
+		<RollingFile name="FileAppender"
+			fileName="${APP_LOG_ROOT}/app.log"
+			filePattern="${APP_LOG_ROOT}/app-%d{MM-dd-yyyy}.log">
+			<PatternLayout>
+				<Pattern>${LOG_PATTERN}</Pattern>
+			</PatternLayout>
+			<Policies>
+				<!-- Roll file every day -->
+				<TimeBasedTriggeringPolicy interval="1"
+					modulate="true" />
+			</Policies>
+			<DefaultRolloverStrategy maxFiles="10" />
+		</RollingFile>
+	</Appenders>
+
+	<Loggers>
+		<!-- Root Logger -->
+
+		<Root level="DEBUG">
+			<AppenderRef ref="FileAppender" />
+			<AppenderRef ref="ConsoleAppender" />
+		</Root>
+	</Loggers>
+</Configuration>

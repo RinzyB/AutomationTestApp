@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" data-provider-thread-count="3" name="Failed suite [AutomationTestSuite]" verbose="10">
+  <listeners>
+    <listener class-name="org.test.listeners.FailureListener"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="TestChrome(failed)" verbose="10">
+    <parameter name="instances" value="1"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="StatusCode" value="200,201,203"/>
+    <parameter name="platform" value="Windows"/>
+    <classes>
+      <class name="org.test.handson.LoginTest">
+        <methods>
+          <include name="testDelete"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- org.test.handson.LoginTest -->
+    </classes>
+  </test> <!-- TestChrome(failed) -->
+  <test thread-count="5" parallel="tests" name="TestFireFox(failed)" verbose="10">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="platform" value="Windows"/>
+    <classes>
+      <class name="org.test.handson.LoginTest">
+        <methods>
+          <include name="testDelete"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- org.test.handson.LoginTest -->
+    </classes>
+  </test> <!-- TestFireFox(failed) -->
+</suite> <!-- Failed suite [AutomationTestSuite] -->

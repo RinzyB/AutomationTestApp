@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="AutomationTestSuite" parallel="tests" thread-count="5" data-provider-thread-count="3" verbose="3">
+	<listeners>
+		<listener class-name="org.test.listeners.FailureListener" />
+	</listeners>
+	<test name="TestChrome">
+		<parameter name="platform" value="Windows" />
+		<parameter name="browser" value="chrome" />
+		<parameter name="instances" value="1" />
+		<parameter name="StatusCode" value="200,201,203" />
+		<classes>
+				<!-- class name="org.test.healthcare.cura.HomePageTest" /> 
+				<class name="org.test.heroku.app.BasicAuthTest"/> 
+				<class name="org.test.heroku.app.FileUpDownLoad" /> 
+				<class name="org.test.heroku.app.BrokenImagesTest"/> 
+				<class name="org.test.lambdatest.apps.WindowHandle" /> 
+				<class name="org.test.lambdatest.apps.DataProviderTest"/> 
+				<class name="org.test.lambdatest.apps.RemoteTest"/> 
+				<class name="org.test.lambdatest.apps.DragAndDrop"/> 
+				<class name="org.test.api.RestAssuredTest" /> 
+				<class name="org.test.cheapoair.FlightBookingTest"/> 
+				<class name="org.test.lambdatest.apps.NestedIFrameTest" / >
+				<class name="org.test.lambdatest.apps.DragAndDrop" />
+				<class name="org.test.lambdatest.apps.TableSortTest"/-->
+				<class name="org.test.handson.LoginTest" />
+		</classes>
+	</test>
+	<test name="TestFireFox">
+		<parameter name="platform" value="Windows" />
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="org.test.handson.LoginTest" />
+		</classes>
+	</test>
+	<!--test name="CucumberTest">
+		<classes>
+			<class name="org.test.cucumber.CucumberTestRunner" />
+		</classes>
+	</test-->
+	<!--test name="TestSanity">
+		<parameter name="platform" value="Windows" />
+		<parameter name="browser" value="chrome" />
+		<groups>
+			<run>
+				<include name="Sanity"/>
+				<include name="Regression"/>
+			</run>
+		</groups>
+		<classes>
+			<class name="org.test.lambdatest.apps.FileDownloadTest" />
+		</classes>
+	</test-->
+	<!-- test name="TestMicrosoftEdge"> <parameter name="browser" value="MicrosoftEdge" 
+		/> <parameter name="instances" value="1" /> <classes> <class name="org.test.lambdatest.apps.DragAndDrop" 
+		/> </classes> </test> <test name="TestSafari"> <parameter name="browser" 
+		value="safari" /> <parameter name="instances" value="1" /> <classes> <class 
+		name="org.test.lambdatest.apps.DragAndDrop" /> </classes> </test -->
+</suite> 

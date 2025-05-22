@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"Verify Drag and Drop 2 Elements","876","testDragDropBy","AutomationTestSuite","Wed May 14 18:02:45 PDT 2025","passed","Wed May 14 18:02:46 PDT 2025","org.test.lambdatest.apps.DragAndDrop","TestChrome","org.test.lambdatest.apps.DragAndDrop","testDragDropBy"
+"Verify Mouse Hover","403","testMouseHover","AutomationTestSuite","Wed May 14 18:02:46 PDT 2025","passed","Wed May 14 18:02:46 PDT 2025","org.test.lambdatest.apps.DragAndDrop","TestChrome","org.test.lambdatest.apps.DragAndDrop","testMouseHover"
+"Verify Drag and Drop Elements","7750","testDragDrop","AutomationTestSuite","Wed May 14 18:02:37 PDT 2025","passed","Wed May 14 18:02:45 PDT 2025","org.test.lambdatest.apps.DragAndDrop","TestChrome","org.test.lambdatest.apps.DragAndDrop","testDragDrop"

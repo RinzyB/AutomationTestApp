@@ -1,0 +1,370 @@
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2025-05-22T19:13:22.092198300Z main DEBUG Apache Log4j Core 2.24 initializing configuration XmlConfiguration[location=C:\Users\rinzi\eclipse-workspace\AutomationTestApp\target\classes\log4j2.xml, lastModified=2025-05-06T17:41:47.118Z]
+2025-05-22T19:13:22.097202800Z main DEBUG PluginManager 'Core' found 131 plugins
+2025-05-22T19:13:22.097202800Z main DEBUG PluginManager 'Level' found 0 plugins
+2025-05-22T19:13:22.105212Z main DEBUG Building Plugin[name=Property, class=org.apache.logging.log4j.core.config.Property].
+2025-05-22T19:13:22.132219500Z main DEBUG PluginManager 'TypeConverter' found 26 plugins
+2025-05-22T19:13:22.148220200Z main DEBUG createProperty(name="APP_LOG_ROOT", value="output/logs", Configuration(C:\Users\rinzi\eclipse-workspace\AutomationTestApp\target\classes\log4j2.xml))
+2025-05-22T19:13:22.149222700Z main DEBUG Building Plugin[name=Property, class=org.apache.logging.log4j.core.config.Property].
+2025-05-22T19:13:22.149222700Z main DEBUG createProperty(name="APP_ENV", value="QA", Configuration(C:\Users\rinzi\eclipse-workspace\AutomationTestApp\target\classes\log4j2.xml))
+2025-05-22T19:13:22.150230900Z main DEBUG Building Plugin[name=Property, class=org.apache.logging.log4j.core.config.Property].
+2025-05-22T19:13:22.150230900Z main DEBUG createProperty(name="LOG_PATTERN", value="%d{yyyy-MM-dd HH:mm:ss} %-5p ENV:${APP_ENV} %c{1}:%M:%L - ThreadID:%tid - %m%n", Configuration(C:\Users\rinzi\eclipse-workspace\AutomationTestApp\target\classes\log4j2.xml))
+2025-05-22T19:13:22.150230900Z main DEBUG Building Plugin[name=Properties, class=org.apache.logging.log4j.core.config.PropertiesPlugin].
+2025-05-22T19:13:22.156826200Z main DEBUG configureSubstitutor(={APP_LOG_ROOT=output/logs, APP_ENV=QA, LOG_PATTERN=%d{yyyy-MM-dd HH:mm:ss} %-5p ENV:${APP_ENV} %c{1}:%M:%L - ThreadID:%tid - %m%n}, Configuration(C:\Users\rinzi\eclipse-workspace\AutomationTestApp\target\classes\log4j2.xml))
+2025-05-22T19:13:22.158842600Z main DEBUG PluginManager 'Lookup' found 16 plugins
+2025-05-22T19:13:22.160046100Z main DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+2025-05-22T19:13:22.169868700Z main DEBUG PatternLayout$Builder(pattern="%d{yyyy-MM-dd HH:mm:ss} %-5p ENV:QA %c{1}:%M:%L - ThreadID:%tid - %m%n", PatternSelector=null, Configuration(C:\Users\rinzi\eclipse-workspace\AutomationTestApp\target\classes\log4j2.xml), Replace=null, charset="null", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
+2025-05-22T19:13:22.169868700Z main DEBUG PluginManager 'Converter' found 45 plugins
+2025-05-22T19:13:22.185861800Z main DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.ConsoleAppender].
+2025-05-22T19:13:22.204070300Z main DEBUG ConsoleAppender$Builder(target="SYSTEM_OUT", follow="null", direct="null", bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="null", PatternLayout(%d{yyyy-MM-dd HH:mm:ss} %-5p ENV:QA %c{1}:%M:%L - ThreadID:%tid - %m%n), name="ConsoleAppender", Configuration(C:\Users\rinzi\eclipse-workspace\AutomationTestApp\target\classes\log4j2.xml), Filter=null, ={})
+2025-05-22T19:13:22.207073800Z main DEBUG Starting OutputStreamManager SYSTEM_OUT.false.false
+2025-05-22T19:13:22.207073800Z main DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+2025-05-22T19:13:22.208073100Z main DEBUG PatternLayout$Builder(pattern="%d{yyyy-MM-dd HH:mm:ss} %-5p ENV:QA %c{1}:%M:%L - ThreadID:%tid - %m%n", PatternSelector=null, Configuration(C:\Users\rinzi\eclipse-workspace\AutomationTestApp\target\classes\log4j2.xml), Replace=null, charset="null", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
+2025-05-22T19:13:22.209073600Z main DEBUG Building Plugin[name=TimeBasedTriggeringPolicy, class=org.apache.logging.log4j.core.appender.rolling.TimeBasedTriggeringPolicy].
+2025-05-22T19:13:22.216074600Z main DEBUG TimeBasedTriggeringPolicy$Builder(interval="1", modulate="true", maxRandomDelay="null")
+2025-05-22T19:13:22.216074600Z main DEBUG Building Plugin[name=Policies, class=org.apache.logging.log4j.core.appender.rolling.CompositeTriggeringPolicy].
+2025-05-22T19:13:22.217075200Z main DEBUG createPolicy(={TimeBasedTriggeringPolicy(nextRolloverMillis=0, interval=1, modulate=true)})
+2025-05-22T19:13:22.217075200Z main DEBUG Building Plugin[name=DefaultRolloverStrategy, class=org.apache.logging.log4j.core.appender.rolling.DefaultRolloverStrategy].
+2025-05-22T19:13:22.222076100Z main DEBUG DefaultRolloverStrategy$Builder(max="null", min="null", fileIndex="null", compressionLevel="null", ={}, stopCustomActionsOnError="null", tempCompressedFilePattern="null", Configuration(C:\Users\rinzi\eclipse-workspace\AutomationTestApp\target\classes\log4j2.xml))
+2025-05-22T19:13:22.223075Z main ERROR DefaultRolloverStrategy contains an invalid element or attribute "maxFiles"
+2025-05-22T19:13:22.223075Z main DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.RollingFileAppender].
+2025-05-22T19:13:22.226077900Z main DEBUG RollingFileAppender$Builder(fileName="output/logs/app.log", filePattern="output/logs/app-%d{MM-dd-yyyy}.log", append="null", locking="null", Policies(CompositeTriggeringPolicy(policies=[TimeBasedTriggeringPolicy(nextRolloverMillis=0, interval=1, modulate=true)])), DefaultRolloverStrategy(DefaultRolloverStrategy(min=1, max=7, useMax=true)), advertise="null", advertiseUri="null", createOnDemand="null", filePermissions="null", fileOwner="null", fileGroup="null", bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="null", PatternLayout(%d{yyyy-MM-dd HH:mm:ss} %-5p ENV:QA %c{1}:%M:%L - ThreadID:%tid - %m%n), name="FileAppender", Configuration(C:\Users\rinzi\eclipse-workspace\AutomationTestApp\target\classes\log4j2.xml), Filter=null, ={})
+2025-05-22T19:13:22.241081700Z main DEBUG Returning file creation time for C:\Users\rinzi\eclipse-workspace\AutomationTestApp\output\logs\app.log
+2025-05-22T19:13:22.241081700Z main DEBUG Starting RollingFileManager output/logs/app.log
+2025-05-22T19:13:22.245084100Z main DEBUG PluginManager 'FileConverter' found 2 plugins
+2025-05-22T19:13:22.257088100Z main DEBUG Setting prev file time to 2025-05-22T11:32:59.459-0700
+2025-05-22T19:13:22.257088100Z main DEBUG Initializing triggering policy CompositeTriggeringPolicy(policies=[TimeBasedTriggeringPolicy(nextRolloverMillis=0, interval=1, modulate=true)])
+2025-05-22T19:13:22.257088100Z main DEBUG Initializing triggering policy TimeBasedTriggeringPolicy(nextRolloverMillis=0, interval=1, modulate=true)
+2025-05-22T19:13:22.258086900Z main DEBUG Building Plugin[name=Appenders, class=org.apache.logging.log4j.core.config.AppendersPlugin].
+2025-05-22T19:13:22.258086900Z main DEBUG createAppenders(={ConsoleAppender, FileAppender})
+2025-05-22T19:13:22.259090100Z main DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+2025-05-22T19:13:22.259090100Z main DEBUG createAppenderRef(ref="FileAppender", level="null", Filter=null)
+2025-05-22T19:13:22.259090100Z main DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+2025-05-22T19:13:22.260088500Z main DEBUG createAppenderRef(ref="ConsoleAppender", level="null", Filter=null)
+2025-05-22T19:13:22.260088500Z main DEBUG Building Plugin[name=Root, class=org.apache.logging.log4j.core.config.LoggerConfig$RootLogger].
+2025-05-22T19:13:22.263091100Z main DEBUG LoggerConfig$RootLogger$Builder(additivity="null", level="DEBUG", levelAndRefs="null", includeLocation="null", ={FileAppender, ConsoleAppender}, ={}, Configuration(C:\Users\rinzi\eclipse-workspace\AutomationTestApp\target\classes\log4j2.xml), Filter=null)
+2025-05-22T19:13:22.267089900Z main DEBUG Building Plugin[name=Loggers, class=org.apache.logging.log4j.core.config.LoggersPlugin].
+2025-05-22T19:13:22.268089Z main DEBUG createLoggers(={root})
+2025-05-22T19:13:22.269087800Z main DEBUG Configuration XmlConfiguration[location=C:\Users\rinzi\eclipse-workspace\AutomationTestApp\target\classes\log4j2.xml, lastModified=2025-05-06T17:41:47.118Z] initialized
+2025-05-22T19:13:22.269087800Z main INFO Starting configuration XmlConfiguration[location=C:\Users\rinzi\eclipse-workspace\AutomationTestApp\target\classes\log4j2.xml, lastModified=2025-05-06T17:41:47.118Z]...
+2025-05-22T19:13:22.269087800Z main INFO Start watching for changes to C:\Users\rinzi\eclipse-workspace\AutomationTestApp\target\classes\log4j2.xml every 0 seconds
+2025-05-22T19:13:22.269087800Z main INFO Configuration XmlConfiguration[location=C:\Users\rinzi\eclipse-workspace\AutomationTestApp\target\classes\log4j2.xml, lastModified=2025-05-06T17:41:47.118Z] started.
+2025-05-22T19:13:22.283092300Z main INFO Stopping configuration org.apache.logging.log4j.core.config.DefaultConfiguration@187e5235...
+2025-05-22T19:13:22.283092300Z main DEBUG Shutting down OutputStreamManager SYSTEM_OUT.false.false-1
+2025-05-22T19:13:22.283092300Z main DEBUG OutputStream closed
+2025-05-22T19:13:22.283092300Z main DEBUG Shut down OutputStreamManager SYSTEM_OUT.false.false-1, all resources released: true
+2025-05-22T19:13:22.284092400Z main DEBUG Appender DefaultConsole-1 stopped with status true
+2025-05-22T19:13:22.284092400Z main INFO Configuration org.apache.logging.log4j.core.config.DefaultConfiguration@187e5235 stopped.
+2025-05-22T19:13:22.291093700Z main DEBUG org.apache.logging.log4j.core.util.SystemClock supports precise timestamps.
+2025-05-22T19:13:22.291093700Z main DEBUG Reconfiguration complete for context[name=6bc168e5] at URI C:\Users\rinzi\eclipse-workspace\AutomationTestApp\target\classes\log4j2.xml (org.apache.logging.log4j.core.LoggerContext@36bed37a) with optional ClassLoader: null
+2025-05-22T19:13:22.292091600Z main DEBUG Shutdown hook enabled. Registering a new one.
+2025-05-22T19:13:22.297191800Z main DEBUG LoggerContext[name=6bc168e5, org.apache.logging.log4j.core.LoggerContext@36bed37a] started OK.
+...
+... TestNG 7.9.0 by Cédric Beust (cedric@beust.com)
+...
+
+[TestNG] RUNNING: Suite: "TestChrome" containing "3" Tests (config: C:\Users\rinzi\eclipse-workspace\AutomationTestApp\testng.xml)
+[TestNG] RUNNING: Suite: "TestFireFox" containing "3" Tests (config: C:\Users\rinzi\eclipse-workspace\AutomationTestApp\testng.xml)
+[TestNG] INVOKING CONFIGURATION: "TestChrome" - @BeforeClass org.test.handson.LoginTest.setUp(java.lang.String)(value(s): "chrome")
+[TestNG] INVOKING CONFIGURATION: "TestChrome" - @BeforeClass org.test.handson.LoginTest.setUp(java.lang.String)(value(s): "firefox")
+May 22, 2025 12:13:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 135
+May 22, 2025 12:13:24 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 135.0.7049.96. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+[TestNG] PASSED CONFIGURATION: "TestChrome" - @BeforeClass org.test.handson.LoginTest.setUp(java.lang.String)(value(s): "chrome") finished in 3152 ms
+2025-05-22 12:13:25 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:25 -  Method: verifyHomePageTitle Listener: Test Started...
+[TestNG] INVOKING: "TestChrome" - org.test.handson.LoginTest.verifyHomePageTitle()
+[TestNG] PASSED: "TestChrome" - org.test.handson.LoginTest.verifyHomePageTitle() finished in 88 ms
+2025-05-22 12:13:25 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:25 -  Method: verifyHomePageTitle Listener: Test Success!!
+2025-05-22 12:13:26 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:25 -  Method: testLoginButton Listener: Test Started...
+[TestNG] INVOKING: "TestChrome" - org.test.handson.LoginTest.testLoginButton()
+2025-05-22 12:13:26 DEBUG ENV:QA LoginTest:testLoginButton:30 - ThreadID:25 - Testing Login..
+2025-05-22 12:13:26 DEBUG ENV:QA LoginPage:login:54 - ThreadID:25 - Testing Login..
+2025-05-22 12:13:26 DEBUG ENV:QA LoginPage:getLoginMsg:68 - ThreadID:25 - login message is: Login failed! Please ensure the username and password are valid.
+[TestNG] PASSED: "TestChrome" - org.test.handson.LoginTest.testLoginButton() finished in 554 ms
+2025-05-22 12:13:26 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:25 -  Method: testLoginButton Listener: Test Success!!
+2025-05-22 12:13:26 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:25 -  Method: testDelete Listener: Test Started...
+[TestNG] INVOKING: "TestChrome" - org.test.handson.LoginTest.testDelete()
+[TestNG] FAILED: "TestChrome" - org.test.handson.LoginTest.testDelete() finished in 61 ms
+[TestNG] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#delete"}
+[TestNG]   (Session info: chrome=135.0.7049.96)
+[TestNG] For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+[TestNG] Build info: version: '4.17.0', revision: 'e52b1be057*'
+[TestNG] System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+[TestNG] Driver info: org.openqa.selenium.chrome.ChromeDriver
+[TestNG] Command: [b71e24a7e43f9633f2d4a77377a71dea, findElement {value=delete, using=id}]
+[TestNG] Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\rinzi\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58053}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58053/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+[TestNG] Session ID: b71e24a7e43f9633f2d4a77377a71dea
+[TestNG] 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[TestNG] 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+[TestNG] 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+[TestNG] 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+[TestNG] 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+[TestNG] 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+[TestNG] 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+[TestNG] 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+[TestNG] 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+[TestNG] 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+[TestNG] 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+[TestNG] 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+[TestNG] 	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+[TestNG] 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+[TestNG] 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+[TestNG] 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+[TestNG] 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+[TestNG] 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+[TestNG] 	at jdk.proxy2/jdk.proxy2.$Proxy26.click(Unknown Source)
+[TestNG] 	at org.test.handson.LoginPage.handleAlertAfterDelete(LoginPage.java:82)
+[TestNG] 	at org.test.handson.LoginTest.testDelete(LoginTest.java:38)
+[TestNG] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[TestNG] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+[TestNG] 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[TestNG] 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+[TestNG] 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+[TestNG] 	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+[TestNG] 	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+[TestNG] 	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+[TestNG] 	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+[TestNG] 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+[TestNG] 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+[TestNG] 	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+[TestNG] 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+[TestNG] 	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+[TestNG] 	at org.testng.TestRunner.run(TestRunner.java:619)
+[TestNG] 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+[TestNG] 	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+[TestNG] 	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+[TestNG] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+[TestNG] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+[TestNG] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[TestNG] 	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-05-22 12:13:26 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:25 -  Method: testDelete Listener: Listener : Test Failed!
+2025-05-22 12:13:26 DEBUG ENV:QA DriverFactory:<init>:34 - ThreadID:25 -  *** Driver Factory Instantiated!
+2025-05-22 12:13:26 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:25 -  Method: testDelete Listener: Attached Screenshot and LogMsg!
+2025-05-22 12:13:26 DEBUG ENV:QA AllureTestListener:beforeTestStop:35 - ThreadID:25 -  Method: testDelete Listener : Test Failed!
+2025-05-22 12:13:26 DEBUG ENV:QA AllureTestListener:saveTextLog:28 - ThreadID:25 - AllureTestListener : Saving Text msg to attach to report: Saved Screenshot for testcase: testDelete
+[TestNG] INVOKING CONFIGURATION: "TestChrome" - @AfterClass org.test.handson.LoginTest.tearDown()
+[TestNG] PASSED CONFIGURATION: "TestChrome" - @AfterClass org.test.handson.LoginTest.tearDown() finished in 237 ms
+===== Invoked methods
+    LoginTest.verifyHomePageTitle()[pri:1, instance:org.test.handson.LoginTest@6dcab9d9]
+    LoginTest.testLoginButton()[pri:2, instance:org.test.handson.LoginTest@6dcab9d9]
+    LoginTest.testDelete()[pri:3, instance:org.test.handson.LoginTest@6dcab9d9]
+=====
+[TestNG] 
+[TestNG] ===============================================
+[TestNG]     TestChrome
+[TestNG]     Tests run: 3, Failures: 1, Skips: []
+[TestNG] ===============================================
+PASSED: org.test.handson.LoginTest.testLoginButton
+PASSED: org.test.handson.LoginTest.verifyHomePageTitle
+FAILED: org.test.handson.LoginTest.testDelete
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#delete"}
+  (Session info: chrome=135.0.7049.96)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b71e24a7e43f9633f2d4a77377a71dea, findElement {value=delete, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\rinzi\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58053}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58053/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b71e24a7e43f9633f2d4a77377a71dea
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy26.click(Unknown Source)
+	at org.test.handson.LoginPage.handleAlertAfterDelete(LoginPage.java:82)
+	at org.test.handson.LoginTest.testDelete(LoginTest.java:38)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+
+===============================================
+    TestChrome
+    Tests run: 3, Failures: 1, Skips: 0
+===============================================
+
+[TestNG] PASSED CONFIGURATION: "UNKNOWN" - @BeforeClass org.test.handson.LoginTest.setUp(java.lang.String)(value(s): "firefox") finished in 8390 ms
+2025-05-22 12:13:31 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: verifyHomePageTitle Listener: Test Started...
+[TestNG] INVOKING: "UNKNOWN" - org.test.handson.LoginTest.verifyHomePageTitle()
+[TestNG] PASSED: "UNKNOWN" - org.test.handson.LoginTest.verifyHomePageTitle() finished in 477 ms
+2025-05-22 12:13:31 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: verifyHomePageTitle Listener: Test Success!!
+2025-05-22 12:13:31 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: testLoginButton Listener: Test Started...
+[TestNG] INVOKING: "UNKNOWN" - org.test.handson.LoginTest.testLoginButton()
+2025-05-22 12:13:31 DEBUG ENV:QA LoginTest:testLoginButton:30 - ThreadID:26 - Testing Login..
+2025-05-22 12:13:31 DEBUG ENV:QA LoginPage:login:54 - ThreadID:26 - Testing Login..
+2025-05-22 12:13:33 DEBUG ENV:QA LoginPage:getLoginMsg:68 - ThreadID:26 - login message is: Login failed! Please ensure the username and password are valid.
+[TestNG] PASSED: "UNKNOWN" - org.test.handson.LoginTest.testLoginButton() finished in 1826 ms
+2025-05-22 12:13:33 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: testLoginButton Listener: Test Success!!
+2025-05-22 12:13:33 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: testDelete Listener: Test Started...
+[TestNG] INVOKING: "UNKNOWN" - org.test.handson.LoginTest.testDelete()
+[TestNG] FAILED: "UNKNOWN" - org.test.handson.LoginTest.testDelete() finished in 8 ms
+[TestNG] org.openqa.selenium.NoSuchElementException: Unable to locate element: #delete
+[TestNG] For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+[TestNG] Build info: version: '4.17.0', revision: 'e52b1be057*'
+[TestNG] System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+[TestNG] Driver info: org.openqa.selenium.firefox.FirefoxDriver
+[TestNG] Command: [832eab9d-43ae-45dc-bab9-ca2de725c955, findElement {value=delete, using=id}]
+[TestNG] Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.4, moz:accessibilityChecks: false, moz:buildID: 20250517143237, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 31140, moz:profile: C:\Users\rinzi\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+[TestNG] Session ID: 832eab9d-43ae-45dc-bab9-ca2de725c955
+[TestNG] 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[TestNG] 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+[TestNG] 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+[TestNG] 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+[TestNG] 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+[TestNG] 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+[TestNG] 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+[TestNG] 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+[TestNG] 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+[TestNG] 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+[TestNG] 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+[TestNG] 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+[TestNG] 	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+[TestNG] 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+[TestNG] 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+[TestNG] 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+[TestNG] 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+[TestNG] 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+[TestNG] 	at jdk.proxy2/jdk.proxy2.$Proxy26.click(Unknown Source)
+[TestNG] 	at org.test.handson.LoginPage.handleAlertAfterDelete(LoginPage.java:82)
+[TestNG] 	at org.test.handson.LoginTest.testDelete(LoginTest.java:38)
+[TestNG] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[TestNG] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+[TestNG] 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[TestNG] 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+[TestNG] 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+[TestNG] 	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+[TestNG] 	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+[TestNG] 	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+[TestNG] 	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+[TestNG] 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+[TestNG] 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+[TestNG] 	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+[TestNG] 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+[TestNG] 	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+[TestNG] 	at org.testng.TestRunner.run(TestRunner.java:619)
+[TestNG] 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+[TestNG] 	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+[TestNG] 	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+[TestNG] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+[TestNG] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+[TestNG] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[TestNG] 	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-05-22 12:13:33 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: testDelete Listener: Listener : Test Failed!
+2025-05-22 12:13:33 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: testDelete Listener: Attached Screenshot and LogMsg!
+2025-05-22 12:13:33 DEBUG ENV:QA AllureTestListener:beforeTestStop:35 - ThreadID:26 -  Method: testDelete Listener : Test Failed!
+2025-05-22 12:13:33 DEBUG ENV:QA AllureTestListener:saveTextLog:28 - ThreadID:26 - AllureTestListener : Saving Text msg to attach to report: Saved Screenshot for testcase: testDelete
+[TestNG] INVOKING CONFIGURATION: "UNKNOWN" - @AfterClass org.test.handson.LoginTest.tearDown()
+[TestNG] PASSED CONFIGURATION: "UNKNOWN" - @AfterClass org.test.handson.LoginTest.tearDown() finished in 857 ms
+===== Invoked methods
+    LoginTest.verifyHomePageTitle()[pri:1, instance:org.test.handson.LoginTest@62b6c045]
+    LoginTest.testLoginButton()[pri:2, instance:org.test.handson.LoginTest@62b6c045]
+    LoginTest.testDelete()[pri:3, instance:org.test.handson.LoginTest@62b6c045]
+=====
+[TestNG] 
+[TestNG] ===============================================
+[TestNG]     null
+[TestNG]     Tests run: 3, Failures: 1, Skips: []
+[TestNG] ===============================================
+PASSED: org.test.handson.LoginTest.testLoginButton
+PASSED: org.test.handson.LoginTest.verifyHomePageTitle
+FAILED: org.test.handson.LoginTest.testDelete
+org.openqa.selenium.NoSuchElementException: Unable to locate element: #delete
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [832eab9d-43ae-45dc-bab9-ca2de725c955, findElement {value=delete, using=id}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.4, moz:accessibilityChecks: false, moz:buildID: 20250517143237, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 31140, moz:profile: C:\Users\rinzi\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 832eab9d-43ae-45dc-bab9-ca2de725c955
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy26.click(Unknown Source)
+	at org.test.handson.LoginPage.handleAlertAfterDelete(LoginPage.java:82)
+	at org.test.handson.LoginTest.testDelete(LoginTest.java:38)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+
+===============================================
+    TestFireFox
+    Tests run: 3, Failures: 1, Skips: 0
+===============================================
+
+
+===============================================
+AutomationTestSuite
+Total tests run: 6, Passes: 4, Failures: 2, Skips: 0
+===============================================
+

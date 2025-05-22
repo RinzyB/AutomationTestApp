@@ -1,0 +1,167 @@
+2025-05-22 11:32:59 DEBUG ENV:QA LoginTest:testLoginButton:25 - ThreadID:22 - Testing Login..
+2025-05-22 11:33:00 DEBUG ENV:QA LoginPage:login:46 - ThreadID:22 - Testing Login..
+2025-05-22 11:33:00 DEBUG ENV:QA AllureTestListener:beforeTestStop:35 - ThreadID:22 -  Method: testLoginButton Listener : Test Failed!
+2025-05-22 11:33:00 DEBUG ENV:QA DriverFactory:<init>:34 - ThreadID:22 -  *** Driver Factory Instantiated!
+2025-05-22 11:33:00 DEBUG ENV:QA AllureTestListener:saveTextLog:28 - ThreadID:22 - AllureTestListener : Saving Text msg to attach to report: Saved Screenshot for testcase: testLoginButton
+2025-05-22 11:33:16 DEBUG ENV:QA LoginTest:testLoginButton:25 - ThreadID:23 - Testing Login..
+2025-05-22 11:33:18 DEBUG ENV:QA LoginPage:login:46 - ThreadID:23 - Testing Login..
+2025-05-22 11:39:22 DEBUG ENV:QA AllureTestListener:beforeTestStop:35 - ThreadID:25 -  Method: verifyHomePageTitle Listener : Test Failed!
+2025-05-22 11:39:22 DEBUG ENV:QA DriverFactory:<init>:34 - ThreadID:25 -  *** Driver Factory Instantiated!
+2025-05-22 11:39:22 DEBUG ENV:QA AllureTestListener:saveTextLog:28 - ThreadID:25 - AllureTestListener : Saving Text msg to attach to report: Saved Screenshot for testcase: verifyHomePageTitle
+2025-05-22 11:39:23 DEBUG ENV:QA LoginTest:testLoginButton:30 - ThreadID:25 - Testing Login..
+2025-05-22 11:39:24 DEBUG ENV:QA LoginPage:login:46 - ThreadID:25 - Testing Login..
+2025-05-22 11:39:26 DEBUG ENV:QA AllureTestListener:beforeTestStop:35 - ThreadID:26 -  Method: verifyHomePageTitle Listener : Test Failed!
+2025-05-22 11:39:26 DEBUG ENV:QA AllureTestListener:saveTextLog:28 - ThreadID:26 - AllureTestListener : Saving Text msg to attach to report: Saved Screenshot for testcase: verifyHomePageTitle
+2025-05-22 11:39:31 DEBUG ENV:QA LoginTest:testLoginButton:30 - ThreadID:26 - Testing Login..
+2025-05-22 11:39:32 DEBUG ENV:QA LoginPage:login:46 - ThreadID:26 - Testing Login..
+2025-05-22 11:41:17 DEBUG ENV:QA AllureTestListener:beforeTestStop:35 - ThreadID:24 -  Method: verifyHomePageTitle Listener : Test Failed!
+2025-05-22 11:41:17 DEBUG ENV:QA DriverFactory:<init>:34 - ThreadID:24 -  *** Driver Factory Instantiated!
+2025-05-22 11:41:17 DEBUG ENV:QA AllureTestListener:saveTextLog:28 - ThreadID:24 - AllureTestListener : Saving Text msg to attach to report: Saved Screenshot for testcase: verifyHomePageTitle
+2025-05-22 11:41:22 DEBUG ENV:QA LoginTest:testLoginButton:30 - ThreadID:24 - Testing Login..
+2025-05-22 11:41:22 DEBUG ENV:QA LoginPage:login:46 - ThreadID:24 - Testing Login..
+2025-05-22 11:41:24 DEBUG ENV:QA AllureTestListener:beforeTestStop:35 - ThreadID:25 -  Method: verifyHomePageTitle Listener : Test Failed!
+2025-05-22 11:41:24 DEBUG ENV:QA AllureTestListener:saveTextLog:28 - ThreadID:25 - AllureTestListener : Saving Text msg to attach to report: Saved Screenshot for testcase: verifyHomePageTitle
+2025-05-22 11:41:33 DEBUG ENV:QA LoginTest:testLoginButton:30 - ThreadID:25 - Testing Login..
+2025-05-22 11:41:33 DEBUG ENV:QA LoginPage:login:46 - ThreadID:25 - Testing Login..
+2025-05-22 11:42:39 DEBUG ENV:QA AllureTestListener:beforeTestStop:35 - ThreadID:24 -  Method: verifyHomePageTitle Listener : Test Failed!
+2025-05-22 11:42:39 DEBUG ENV:QA DriverFactory:<init>:34 - ThreadID:24 -  *** Driver Factory Instantiated!
+2025-05-22 11:42:39 DEBUG ENV:QA AllureTestListener:saveTextLog:28 - ThreadID:24 - AllureTestListener : Saving Text msg to attach to report: Saved Screenshot for testcase: verifyHomePageTitle
+2025-05-22 11:42:39 DEBUG ENV:QA LoginTest:testLoginButton:30 - ThreadID:24 - Testing Login..
+2025-05-22 11:42:39 DEBUG ENV:QA LoginPage:login:46 - ThreadID:24 - Testing Login..
+2025-05-22 11:42:47 DEBUG ENV:QA AllureTestListener:beforeTestStop:35 - ThreadID:25 -  Method: verifyHomePageTitle Listener : Test Failed!
+2025-05-22 11:42:47 DEBUG ENV:QA AllureTestListener:saveTextLog:28 - ThreadID:25 - AllureTestListener : Saving Text msg to attach to report: Saved Screenshot for testcase: verifyHomePageTitle
+2025-05-22 11:42:47 DEBUG ENV:QA LoginTest:testLoginButton:30 - ThreadID:25 - Testing Login..
+2025-05-22 11:42:47 DEBUG ENV:QA LoginPage:login:46 - ThreadID:25 - Testing Login..
+2025-05-22 11:43:48 DEBUG ENV:QA AllureTestListener:beforeTestStop:35 - ThreadID:26 -  Method: verifyHomePageTitle Listener : Test Failed!
+2025-05-22 11:43:48 DEBUG ENV:QA DriverFactory:<init>:34 - ThreadID:26 -  *** Driver Factory Instantiated!
+2025-05-22 11:43:48 DEBUG ENV:QA AllureTestListener:saveTextLog:28 - ThreadID:26 - AllureTestListener : Saving Text msg to attach to report: Saved Screenshot for testcase: verifyHomePageTitle
+2025-05-22 11:43:48 DEBUG ENV:QA LoginTest:testLoginButton:30 - ThreadID:26 - Testing Login..
+2025-05-22 11:43:48 DEBUG ENV:QA LoginPage:login:46 - ThreadID:26 - Testing Login..
+2025-05-22 11:43:52 DEBUG ENV:QA AllureTestListener:beforeTestStop:35 - ThreadID:27 -  Method: verifyHomePageTitle Listener : Test Failed!
+2025-05-22 11:43:52 DEBUG ENV:QA AllureTestListener:saveTextLog:28 - ThreadID:27 - AllureTestListener : Saving Text msg to attach to report: Saved Screenshot for testcase: verifyHomePageTitle
+2025-05-22 11:43:52 DEBUG ENV:QA LoginTest:testLoginButton:30 - ThreadID:27 - Testing Login..
+2025-05-22 11:43:52 DEBUG ENV:QA LoginPage:login:46 - ThreadID:27 - Testing Login..
+2025-05-22 12:01:57 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: verifyHomePageTitle Listener: Test Started...
+2025-05-22 12:01:57 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: verifyHomePageTitle Listener: Listener : Test Failed!
+2025-05-22 12:01:57 DEBUG ENV:QA DriverFactory:<init>:34 - ThreadID:26 -  *** Driver Factory Instantiated!
+2025-05-22 12:01:57 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: verifyHomePageTitle Listener: Attached Screenshot and LogMsg!
+2025-05-22 12:01:57 DEBUG ENV:QA AllureTestListener:beforeTestStop:35 - ThreadID:26 -  Method: verifyHomePageTitle Listener : Test Failed!
+2025-05-22 12:01:57 DEBUG ENV:QA AllureTestListener:saveTextLog:28 - ThreadID:26 - AllureTestListener : Saving Text msg to attach to report: Saved Screenshot for testcase: verifyHomePageTitle
+2025-05-22 12:01:58 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: testLoginButton Listener: Test Started...
+2025-05-22 12:01:58 DEBUG ENV:QA LoginTest:testLoginButton:30 - ThreadID:26 - Testing Login..
+2025-05-22 12:01:58 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: testLoginButton Listener: Listener : Test Failed!
+2025-05-22 12:01:58 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: testLoginButton Listener: Attached Screenshot and LogMsg!
+2025-05-22 12:01:58 DEBUG ENV:QA AllureTestListener:beforeTestStop:35 - ThreadID:26 -  Method: testLoginButton Listener : Test Failed!
+2025-05-22 12:01:58 DEBUG ENV:QA AllureTestListener:saveTextLog:28 - ThreadID:26 - AllureTestListener : Saving Text msg to attach to report: Saved Screenshot for testcase: testLoginButton
+2025-05-22 12:01:58 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: testDelete Listener: Test Started...
+2025-05-22 12:01:58 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: testDelete Listener: Listener : Test Failed!
+2025-05-22 12:01:58 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: testDelete Listener: Attached Screenshot and LogMsg!
+2025-05-22 12:01:58 DEBUG ENV:QA AllureTestListener:beforeTestStop:35 - ThreadID:26 -  Method: testDelete Listener : Test Failed!
+2025-05-22 12:01:58 DEBUG ENV:QA AllureTestListener:saveTextLog:28 - ThreadID:26 - AllureTestListener : Saving Text msg to attach to report: Saved Screenshot for testcase: testDelete
+2025-05-22 12:02:06 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:27 -  Method: verifyHomePageTitle Listener: Test Started...
+2025-05-22 12:02:06 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:27 -  Method: verifyHomePageTitle Listener: Listener : Test Failed!
+2025-05-22 12:02:06 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:27 -  Method: verifyHomePageTitle Listener: Attached Screenshot and LogMsg!
+2025-05-22 12:02:06 DEBUG ENV:QA AllureTestListener:beforeTestStop:35 - ThreadID:27 -  Method: verifyHomePageTitle Listener : Test Failed!
+2025-05-22 12:02:06 DEBUG ENV:QA AllureTestListener:saveTextLog:28 - ThreadID:27 - AllureTestListener : Saving Text msg to attach to report: Saved Screenshot for testcase: verifyHomePageTitle
+2025-05-22 12:02:06 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:27 -  Method: testLoginButton Listener: Test Started...
+2025-05-22 12:02:06 DEBUG ENV:QA LoginTest:testLoginButton:30 - ThreadID:27 - Testing Login..
+2025-05-22 12:02:06 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:27 -  Method: testLoginButton Listener: Listener : Test Failed!
+2025-05-22 12:02:06 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:27 -  Method: testLoginButton Listener: Attached Screenshot and LogMsg!
+2025-05-22 12:02:06 DEBUG ENV:QA AllureTestListener:beforeTestStop:35 - ThreadID:27 -  Method: testLoginButton Listener : Test Failed!
+2025-05-22 12:02:06 DEBUG ENV:QA AllureTestListener:saveTextLog:28 - ThreadID:27 - AllureTestListener : Saving Text msg to attach to report: Saved Screenshot for testcase: testLoginButton
+2025-05-22 12:02:06 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:27 -  Method: testDelete Listener: Test Started...
+2025-05-22 12:02:06 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:27 -  Method: testDelete Listener: Listener : Test Failed!
+2025-05-22 12:02:06 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:27 -  Method: testDelete Listener: Attached Screenshot and LogMsg!
+2025-05-22 12:02:06 DEBUG ENV:QA AllureTestListener:beforeTestStop:35 - ThreadID:27 -  Method: testDelete Listener : Test Failed!
+2025-05-22 12:02:06 DEBUG ENV:QA AllureTestListener:saveTextLog:28 - ThreadID:27 - AllureTestListener : Saving Text msg to attach to report: Saved Screenshot for testcase: testDelete
+2025-05-22 12:07:08 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:25 -  Method: verifyHomePageTitle Listener: Test Started...
+2025-05-22 12:07:08 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:25 -  Method: verifyHomePageTitle Listener: Listener : Test Failed!
+2025-05-22 12:07:08 DEBUG ENV:QA DriverFactory:<init>:34 - ThreadID:25 -  *** Driver Factory Instantiated!
+2025-05-22 12:07:08 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:25 -  Method: verifyHomePageTitle Listener: Attached Screenshot and LogMsg!
+2025-05-22 12:07:08 DEBUG ENV:QA AllureTestListener:beforeTestStop:35 - ThreadID:25 -  Method: verifyHomePageTitle Listener : Test Failed!
+2025-05-22 12:07:08 DEBUG ENV:QA AllureTestListener:saveTextLog:28 - ThreadID:25 - AllureTestListener : Saving Text msg to attach to report: Saved Screenshot for testcase: verifyHomePageTitle
+2025-05-22 12:07:08 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:25 -  Method: testLoginButton Listener: Test Started...
+2025-05-22 12:07:08 DEBUG ENV:QA LoginTest:testLoginButton:30 - ThreadID:25 - Testing Login..
+2025-05-22 12:07:08 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:25 -  Method: testLoginButton Listener: Listener : Test Failed!
+2025-05-22 12:07:08 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:25 -  Method: testLoginButton Listener: Attached Screenshot and LogMsg!
+2025-05-22 12:07:08 DEBUG ENV:QA AllureTestListener:beforeTestStop:35 - ThreadID:25 -  Method: testLoginButton Listener : Test Failed!
+2025-05-22 12:07:08 DEBUG ENV:QA AllureTestListener:saveTextLog:28 - ThreadID:25 - AllureTestListener : Saving Text msg to attach to report: Saved Screenshot for testcase: testLoginButton
+2025-05-22 12:07:08 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:25 -  Method: testDelete Listener: Test Started...
+2025-05-22 12:07:08 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:25 -  Method: testDelete Listener: Listener : Test Failed!
+2025-05-22 12:07:08 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:25 -  Method: testDelete Listener: Attached Screenshot and LogMsg!
+2025-05-22 12:07:08 DEBUG ENV:QA AllureTestListener:beforeTestStop:35 - ThreadID:25 -  Method: testDelete Listener : Test Failed!
+2025-05-22 12:07:08 DEBUG ENV:QA AllureTestListener:saveTextLog:28 - ThreadID:25 - AllureTestListener : Saving Text msg to attach to report: Saved Screenshot for testcase: testDelete
+2025-05-22 12:07:13 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: verifyHomePageTitle Listener: Test Started...
+2025-05-22 12:07:13 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: verifyHomePageTitle Listener: Listener : Test Failed!
+2025-05-22 12:07:13 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: verifyHomePageTitle Listener: Attached Screenshot and LogMsg!
+2025-05-22 12:07:13 DEBUG ENV:QA AllureTestListener:beforeTestStop:35 - ThreadID:26 -  Method: verifyHomePageTitle Listener : Test Failed!
+2025-05-22 12:07:13 DEBUG ENV:QA AllureTestListener:saveTextLog:28 - ThreadID:26 - AllureTestListener : Saving Text msg to attach to report: Saved Screenshot for testcase: verifyHomePageTitle
+2025-05-22 12:07:13 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: testLoginButton Listener: Test Started...
+2025-05-22 12:07:13 DEBUG ENV:QA LoginTest:testLoginButton:30 - ThreadID:26 - Testing Login..
+2025-05-22 12:07:13 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: testLoginButton Listener: Listener : Test Failed!
+2025-05-22 12:07:13 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: testLoginButton Listener: Attached Screenshot and LogMsg!
+2025-05-22 12:07:13 DEBUG ENV:QA AllureTestListener:beforeTestStop:35 - ThreadID:26 -  Method: testLoginButton Listener : Test Failed!
+2025-05-22 12:07:13 DEBUG ENV:QA AllureTestListener:saveTextLog:28 - ThreadID:26 - AllureTestListener : Saving Text msg to attach to report: Saved Screenshot for testcase: testLoginButton
+2025-05-22 12:07:13 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: testDelete Listener: Test Started...
+2025-05-22 12:07:13 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: testDelete Listener: Listener : Test Failed!
+2025-05-22 12:07:13 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: testDelete Listener: Attached Screenshot and LogMsg!
+2025-05-22 12:07:13 DEBUG ENV:QA AllureTestListener:beforeTestStop:35 - ThreadID:26 -  Method: testDelete Listener : Test Failed!
+2025-05-22 12:07:13 DEBUG ENV:QA AllureTestListener:saveTextLog:28 - ThreadID:26 - AllureTestListener : Saving Text msg to attach to report: Saved Screenshot for testcase: testDelete
+2025-05-22 12:09:50 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:25 -  Method: verifyHomePageTitle Listener: Test Started...
+2025-05-22 12:09:50 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:25 -  Method: verifyHomePageTitle Listener: Listener : Test Failed!
+2025-05-22 12:09:50 DEBUG ENV:QA DriverFactory:<init>:34 - ThreadID:25 -  *** Driver Factory Instantiated!
+2025-05-22 12:09:50 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:25 -  Method: verifyHomePageTitle Listener: Attached Screenshot and LogMsg!
+2025-05-22 12:09:50 DEBUG ENV:QA AllureTestListener:beforeTestStop:35 - ThreadID:25 -  Method: verifyHomePageTitle Listener : Test Failed!
+2025-05-22 12:09:50 DEBUG ENV:QA AllureTestListener:saveTextLog:28 - ThreadID:25 - AllureTestListener : Saving Text msg to attach to report: Saved Screenshot for testcase: verifyHomePageTitle
+2025-05-22 12:09:50 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:25 -  Method: testLoginButton Listener: Test Started...
+2025-05-22 12:09:50 DEBUG ENV:QA LoginTest:testLoginButton:30 - ThreadID:25 - Testing Login..
+2025-05-22 12:09:50 DEBUG ENV:QA LoginPage:login:54 - ThreadID:25 - Testing Login..
+2025-05-22 12:09:51 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:25 -  Method: testLoginButton Listener: Listener : Test Failed!
+2025-05-22 12:09:51 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:25 -  Method: testLoginButton Listener: Attached Screenshot and LogMsg!
+2025-05-22 12:09:51 DEBUG ENV:QA AllureTestListener:beforeTestStop:35 - ThreadID:25 -  Method: testLoginButton Listener : Test Failed!
+2025-05-22 12:09:51 DEBUG ENV:QA AllureTestListener:saveTextLog:28 - ThreadID:25 - AllureTestListener : Saving Text msg to attach to report: Saved Screenshot for testcase: testLoginButton
+2025-05-22 12:09:51 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:25 -  Method: testDelete Listener: Test Started...
+2025-05-22 12:09:51 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:25 -  Method: testDelete Listener: Listener : Test Failed!
+2025-05-22 12:09:51 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:25 -  Method: testDelete Listener: Attached Screenshot and LogMsg!
+2025-05-22 12:09:51 DEBUG ENV:QA AllureTestListener:beforeTestStop:35 - ThreadID:25 -  Method: testDelete Listener : Test Failed!
+2025-05-22 12:09:51 DEBUG ENV:QA AllureTestListener:saveTextLog:28 - ThreadID:25 - AllureTestListener : Saving Text msg to attach to report: Saved Screenshot for testcase: testDelete
+2025-05-22 12:09:56 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: verifyHomePageTitle Listener: Test Started...
+2025-05-22 12:09:56 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: verifyHomePageTitle Listener: Listener : Test Failed!
+2025-05-22 12:09:56 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: verifyHomePageTitle Listener: Attached Screenshot and LogMsg!
+2025-05-22 12:09:56 DEBUG ENV:QA AllureTestListener:beforeTestStop:35 - ThreadID:26 -  Method: verifyHomePageTitle Listener : Test Failed!
+2025-05-22 12:09:56 DEBUG ENV:QA AllureTestListener:saveTextLog:28 - ThreadID:26 - AllureTestListener : Saving Text msg to attach to report: Saved Screenshot for testcase: verifyHomePageTitle
+2025-05-22 12:09:56 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: testLoginButton Listener: Test Started...
+2025-05-22 12:09:56 DEBUG ENV:QA LoginTest:testLoginButton:30 - ThreadID:26 - Testing Login..
+2025-05-22 12:09:56 DEBUG ENV:QA LoginPage:login:54 - ThreadID:26 - Testing Login..
+2025-05-22 12:09:57 DEBUG ENV:QA LoginPage:getLoginMsg:69 - ThreadID:26 - login message is: Login failed! Please ensure the username and password are valid.
+2025-05-22 12:09:57 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: testLoginButton Listener: Test Success!!
+2025-05-22 12:09:57 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: testDelete Listener: Test Started...
+2025-05-22 12:09:57 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: testDelete Listener: Listener : Test Failed!
+2025-05-22 12:09:57 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: testDelete Listener: Attached Screenshot and LogMsg!
+2025-05-22 12:09:57 DEBUG ENV:QA AllureTestListener:beforeTestStop:35 - ThreadID:26 -  Method: testDelete Listener : Test Failed!
+2025-05-22 12:09:57 DEBUG ENV:QA AllureTestListener:saveTextLog:28 - ThreadID:26 - AllureTestListener : Saving Text msg to attach to report: Saved Screenshot for testcase: testDelete
+2025-05-22 12:13:25 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:25 -  Method: verifyHomePageTitle Listener: Test Started...
+2025-05-22 12:13:25 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:25 -  Method: verifyHomePageTitle Listener: Test Success!!
+2025-05-22 12:13:26 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:25 -  Method: testLoginButton Listener: Test Started...
+2025-05-22 12:13:26 DEBUG ENV:QA LoginTest:testLoginButton:30 - ThreadID:25 - Testing Login..
+2025-05-22 12:13:26 DEBUG ENV:QA LoginPage:login:54 - ThreadID:25 - Testing Login..
+2025-05-22 12:13:26 DEBUG ENV:QA LoginPage:getLoginMsg:68 - ThreadID:25 - login message is: Login failed! Please ensure the username and password are valid.
+2025-05-22 12:13:26 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:25 -  Method: testLoginButton Listener: Test Success!!
+2025-05-22 12:13:26 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:25 -  Method: testDelete Listener: Test Started...
+2025-05-22 12:13:26 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:25 -  Method: testDelete Listener: Listener : Test Failed!
+2025-05-22 12:13:26 DEBUG ENV:QA DriverFactory:<init>:34 - ThreadID:25 -  *** Driver Factory Instantiated!
+2025-05-22 12:13:26 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:25 -  Method: testDelete Listener: Attached Screenshot and LogMsg!
+2025-05-22 12:13:26 DEBUG ENV:QA AllureTestListener:beforeTestStop:35 - ThreadID:25 -  Method: testDelete Listener : Test Failed!
+2025-05-22 12:13:26 DEBUG ENV:QA AllureTestListener:saveTextLog:28 - ThreadID:25 - AllureTestListener : Saving Text msg to attach to report: Saved Screenshot for testcase: testDelete
+2025-05-22 12:13:31 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: verifyHomePageTitle Listener: Test Started...
+2025-05-22 12:13:31 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: verifyHomePageTitle Listener: Test Success!!
+2025-05-22 12:13:31 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: testLoginButton Listener: Test Started...
+2025-05-22 12:13:31 DEBUG ENV:QA LoginTest:testLoginButton:30 - ThreadID:26 - Testing Login..
+2025-05-22 12:13:31 DEBUG ENV:QA LoginPage:login:54 - ThreadID:26 - Testing Login..
+2025-05-22 12:13:33 DEBUG ENV:QA LoginPage:getLoginMsg:68 - ThreadID:26 - login message is: Login failed! Please ensure the username and password are valid.
+2025-05-22 12:13:33 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: testLoginButton Listener: Test Success!!
+2025-05-22 12:13:33 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: testDelete Listener: Test Started...
+2025-05-22 12:13:33 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: testDelete Listener: Listener : Test Failed!
+2025-05-22 12:13:33 DEBUG ENV:QA FailureListener:appLog:24 - ThreadID:26 -  Method: testDelete Listener: Attached Screenshot and LogMsg!
+2025-05-22 12:13:33 DEBUG ENV:QA AllureTestListener:beforeTestStop:35 - ThreadID:26 -  Method: testDelete Listener : Test Failed!
+2025-05-22 12:13:33 DEBUG ENV:QA AllureTestListener:saveTextLog:28 - ThreadID:26 - AllureTestListener : Saving Text msg to attach to report: Saved Screenshot for testcase: testDelete
